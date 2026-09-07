@@ -63,7 +63,7 @@ After every message from her:
    - **Summarize** / "where were we": read the file, give the recap, and wait.
    - **End the chapter**: write a closing beat, add `## Chapter N` above the next turn, rewrite the summary, and offer to keep going.
    - **The end** / "finish it": write the ending, set `status: finished`, and tell her it is saved.
-   - **Stop for now** ("that's enough tonight", "bye"): save, then say the story is safe and how to come back ("say *continue &lt;title&gt;*").
+   - **Stop for now** ("that's enough tonight", "bye"): save, then say the story is safe and how to come back ("say *continue <title>*").
 4. **Save**: append her turn and yours to the file, and update the bible if anything changed. Save every turn, not at the end. If the chat dies, nothing is lost.
 
 ## Voice
@@ -76,4 +76,4 @@ Keep the story consistent with the bible. A character who was left in the car is
 
 - She wrote text and got prose back, with no meta commentary.
 - Her turn and yours are both in the file, and the file still starts with the bible.
-- A new chat that says "continue &lt;title&gt;" gets the recap and can pick up mid-scene.
+- A new chat that says "continue <title>" gets the recap and can pick up mid-scene.
