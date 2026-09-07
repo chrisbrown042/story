@@ -39,11 +39,11 @@ Three to six sentences. Rewrite it when a chapter ends.
 
 Everything above the `---` is the **bible**. Read it before every turn. Update it whenever the story changes a fact (a new character, a new place, a resolved thread).
 
-If you have no file access in this chat, say so once, then keep the bible and the story in the chat. At the end of the session, print the whole file in a code block and tell her to paste it back to you next time.
+**No file access** (claude.ai on the phone or web): the chat is the save. Keep the whole story in this one chat; she reopens the same chat to continue. Say once, at the start, "this chat is the story, come back to it to keep going." Keep the bible in your head, and re-print it in a short code block at every chapter end so it stays in recent context. If she asks to "move this story" or "print the story", output the whole file (bible and text) in one code block so she can paste it into a new chat.
 
 ## Starting a session
 
-1. List `~/Stories/*.md`. Ignore files with `status: finished` unless she names one.
+1. If the chat already holds a story, pick up from it and skip to step 4. Otherwise list `~/Stories/*.md`. Ignore files with `status: finished` unless she names one.
 2. If she named a story, open it. Otherwise, if there are active stories, show their titles and one line each from the summary, and ask which one, or new.
 3. **New story**: ask one question, in one message: genre, and a character or a place she wants in it. If she says "surprise me", offer three one-line story seeds and let her pick. Then write the bible, write an opening of one to three paragraphs that ends on a moment she can act on, and save.
 4. **Continuing**: read the whole file. Reply with a two-line "previously" recap and the last paragraph of the story, then wait for her turn.

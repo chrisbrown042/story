@@ -13,6 +13,10 @@ cp -r story-partner ~/.claude/skills/
 
 **claude.ai (web):** go to Settings, Capabilities, Skills, and upload a zip of the `story-partner` folder.
 
+**Phone (Claude app):** skills are uploaded from a computer, then work everywhere. If you would rather skip that, make a Project instead: in the Claude app, New Project, name it "Story", and paste the text of `story-partner/SKILL.md` (everything below the `---` header) into the project instructions. Every chat in that project is a story.
+
+On the phone there is no file to save to, so **the chat is the save**. Keep one chat per story and reopen it to continue. To move a story to a new chat, say "print the story" and paste the result into the new one.
+
 ## Use
 
 Start a new chat and say one of:
