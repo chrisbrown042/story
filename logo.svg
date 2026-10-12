@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108"><title>Story partner</title><desc>Pen nib and bookmark (option A, chosen 2026-10-11). Night ink #2A2550, page #F1ECE2, rose #C8566B.</desc>
+  <rect x="8" y="8" width="92" height="92" rx="18" fill="#F1ECE2"/>
+  <path d="M68 8 H82 V40 L75 34 L68 40Z" fill="#C8566B"/>
+  <path d="M54 92 L36 58 C36 46 44 36 54 28 C64 36 72 46 72 58Z" fill="#2A2550"/>
+  <path d="M54 88 V60" stroke="#F1ECE2" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="54" cy="56" r="4.5" fill="#F1ECE2"/>
+</svg>
